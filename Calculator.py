@@ -17,7 +17,7 @@ def calculate(choice,num1,num2):
     elif choice==4:
         return num1/num2
     elif choice==5:
-        pass        
+        return num1%num2 
     else:
         return "Enter valid Choice"
 
