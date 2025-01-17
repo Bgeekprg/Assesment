@@ -5,7 +5,7 @@ def menu():
     print("3. * ")
     print("4. / ")
     print("5. % ")
-
+    print("6. ^ ")
 #Calculating Operations
 def calculate(choice,num1,num2):
     if choice==1:
@@ -17,7 +17,10 @@ def calculate(choice,num1,num2):
     elif choice==4:
         return num1/num2
     elif choice==5:
-        return num1%num2 
+        return num1%num2
+    elif choice==6:
+        return num1**num2
+        
     else:
         return "Enter valid Choice"
 
