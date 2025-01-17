@@ -9,7 +9,7 @@ def menu():
 #Calculating Operations
 def calculate(choice,num1,num2):
     if choice==1:
-        return num1+num2 
+        return num1+num2
     elif choice==2:
         pass
     elif choice==3:
