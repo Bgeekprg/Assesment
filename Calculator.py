@@ -11,13 +11,13 @@ def calculate(choice,num1,num2):
     if choice==1:
         return num1+num2 
     elif choice==2:
-        return num1-num2
+        pass
     elif choice==3:
-        return num1*num2
+        pass        
     elif choice==4:
-        return num1/num2
+        pass
     elif choice==5:
-        return num1%num2
+        pass        
     else:
         return "Enter valid Choice"
 
