@@ -21,11 +21,12 @@ def calculate(choice,num1,num2):
     else:
         return "Enter valid Choice"
 
-
+#calling Menu 
 menu()
 choice=int(input("Enter Ur Choice = "))
 num1=eval(input("Enter num 1 ="))
 num2=eval(input("Enter num 2 ="))
 
+# Passing parameters in calculate method and print return value
 print(calculate(choice,num1,num2))
 
