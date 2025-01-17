@@ -11,7 +11,7 @@ def calculate(choice,num1,num2):
     if choice==1:
         return num1+num2
     elif choice==2:
-        pass
+        return num1-num2
     elif choice==3:
         pass        
     elif choice==4:
