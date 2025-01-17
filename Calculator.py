@@ -6,6 +6,7 @@ def menu():
     print("4. / ")
     print("5. % ")
     print("6. ^ ")
+    
 #Calculating Operations
 def calculate(choice,num1,num2):
     if choice==1:
@@ -26,7 +27,11 @@ def calculate(choice,num1,num2):
 
 #calling Menu 
 menu()
+
+#getting input of selection of menu item.
 choice=int(input("Enter Ur Choice = "))
+
+#getting inputs of two numbers. 
 num1=eval(input("Enter num 1 ="))
 num2=eval(input("Enter num 2 ="))
 
