@@ -13,9 +13,9 @@ def calculate(choice,num1,num2):
     elif choice==2:
         return num1-num2
     elif choice==3:
-         return num1*num2
+        return num1*num2
     elif choice==4:
-        pass
+        return num1/num2
     elif choice==5:
         pass        
     else:
