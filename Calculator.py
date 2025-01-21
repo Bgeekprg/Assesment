@@ -43,15 +43,18 @@ try:
         raise Exception()
 
 except ValueError:
-    print("Enter integer value in choice !")
+    print("Enter integer value in !")
 
 except:
     print("You entered wrong choice !")
 
 else:
-    # Getting inputs of two numbers.
-    num1 = eval(input("Enter num 1 = "))
-    num2 = eval(input("Enter num 2 = "))
+    try:
+        # Getting inputs of two numbers.
+        num1 = eval(input("Enter num 1 = "))
+        num2 = eval(input("Enter num 2 = "))
 
-    # Passing parameters in calculate method and print return value
-    print(calculate(choice, num1, num2))
+        # Passing parameters in calculate method and print return value
+        print(calculate(choice, num1, num2))
+    except:
+        print("You entered wrong type of value!")
